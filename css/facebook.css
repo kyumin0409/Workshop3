@@ -12,3 +12,37 @@ body {
 .fb-search {
   width: 395px !important;
 }
+
+/* Style applies to a elements within ul elements with class nav within
+   an element with class fb-trending */
+.fb-trending ul.nav a {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.fb-trending-title {
+  line-height: 24px;
+}
+
+.fb-trending > .row:first-child {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  /* Padding is the whitespace between the content of fb-trending and its
+     border */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* Margin is the whitespace between the border and adjacent elements */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fb-trending .media {
+  margin-top: 5px;
+}
+
+.fb-trending{
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 5px;
+}
